@@ -19,7 +19,7 @@ I enjoy working close to the hardware — reading sensor data, interfacing perip
 ### [Joystick-Controlled Robotic Arm](https://github.com/ayush-ydv09/ROBOTIC_ARM)
 Arduino-based 4-DOF arm control using analog joystick inputs and servo motors. The documented implementation includes ADC acquisition, exponential moving-average filtering, dead-zone handling, motion limiting, and periodic non-blocking updates.
 
-### ESP32 Food Spoilage Monitoring System
+### [food-spoilage-monitoring-system](https://github.com/ayush-ydv09/food-spoilage-monitoring-system)
 An IoT prototype using an ESP32, DHT22, MQ-series gas sensors, and an OLED display for environmental monitoring and local alerts. Current work includes understanding sensor warm-up, drift, humidity effects, and baseline characterization.
 
 ### Virtual Sensor Firmware
