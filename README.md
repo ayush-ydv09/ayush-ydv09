@@ -1,31 +1,39 @@
 # Ayush Yadav
 
-**Embedded Systems & Firmware | Digital Design**
+**Embedded Systems | Firmware Development**
 
-I'm a final-year Electronics and Communication Engineering student interested in building reliable firmware and understanding how software interacts with real hardware.
+I'm a final-year Electronics and Communication Engineering student focused on building firmware-driven systems and understanding how software interacts with real hardware.
 
-My work spans microcontroller-based systems, sensor interfacing, C/C++ firmware, and RTL design. I enjoy taking a system from its inputs and interfaces through implementation, testing, and debugging.
+I enjoy working close to the hardware — reading sensor data, interfacing peripherals, writing C/C++ logic, debugging behavior, and making small systems work reliably.
 
-## Engineering focus
+## Embedded engineering
 
-- **Embedded systems:** C/C++, microcontroller programming, GPIO, ADC, UART, I²C, SPI
-- **Digital design:** Verilog/SystemVerilog, finite-state machines, RTL fundamentals
-- **Platforms & tools:** ESP32, Arduino, Wokwi, KiCad, Arduino IDE, Git
-- **Currently exploring:** STM32, FreeRTOS, embedded firmware architecture, RISC-V
+- **Programming:** C, C++, Python (basics)
+- **Microcontrollers:** ESP32, Arduino; currently building STM32 experience
+- **Firmware & interfaces:** GPIO, ADC, UART, I²C, SPI, sensor interfacing, actuator control
+- **Tools:** Arduino IDE, STM32CubeIDE, Wokwi, GCC, KiCad, Git
+- **Currently learning:** FreeRTOS, task scheduling, embedded firmware architecture, and systematic testing
 
-## Selected projects
+## Selected embedded projects
 
-| Project | What it explores |
-| --- | --- |
-| [RV32I Single-Cycle RISC-V Core](https://github.com/ayush-ydv09/rv32i-single-cycle-riscv-core) | Modular Verilog processor, instruction execution, assembler, and self-checking verification |
-| [Traffic Light Controller](https://github.com/ayush-ydv09/traffic-light-controller) | Seven-state Moore FSM, parameterized timer, and SystemVerilog testbench |
-| [Joystick-Controlled Robotic Arm](https://github.com/ayush-ydv09/ROBOTIC_ARM) | Arduino-based input acquisition, filtering, and servo motion control |
+### [Joystick-Controlled Robotic Arm](https://github.com/ayush-ydv09/ROBOTIC_ARM)
+Arduino-based 4-DOF arm control using analog joystick inputs and servo motors. The documented implementation includes ADC acquisition, exponential moving-average filtering, dead-zone handling, motion limiting, and periodic non-blocking updates.
 
-## Current work
+### ESP32 Food Spoilage Monitoring System
+An IoT prototype using an ESP32, DHT22, MQ-series gas sensors, and an OLED display for environmental monitoring and local alerts. Current work includes understanding sensor warm-up, drift, humidity effects, and baseline characterization.
 
-- Developing an ESP32-based food-spoilage monitoring prototype using environmental and gas sensors.
-- Practising C firmware design through sensor-data validation, status handling, and alarm logic.
-- Building stronger foundations in embedded C, microcontroller peripherals, and real-time systems.
+### Virtual Sensor Firmware
+A C-based firmware practice project using GCC. Focus areas include sensor-data validation, safe-range checks, status handling, alarm counting, and average calculation.
+
+### Battery Management System
+A battery parameter monitoring project focused on understanding battery measurements and the role of monitoring in a BMS.
+
+## What I'm working on now
+
+- Strengthening embedded C through small, testable firmware modules.
+- Developing microcontroller peripheral and sensor-interfacing skills.
+- Learning RTOS fundamentals before applying task-based design to an embedded project.
+- Improving debugging, documentation, and hardware-software integration practices.
 
 ## Connect
 
@@ -34,4 +42,4 @@ My work spans microcontroller-based systems, sensor interfacing, C/C++ firmware,
 
 ---
 
-*Build. Measure. Debug. Improve.*
+*Build close to the hardware. Test the behavior. Understand the system.*
