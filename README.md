@@ -25,9 +25,6 @@ An IoT prototype using an ESP32, DHT22, MQ-series gas sensors, and an OLED displ
 ### Virtual Sensor Firmware
 A C-based firmware practice project using GCC. Focus areas include sensor-data validation, safe-range checks, status handling, alarm counting, and average calculation.
 
-### Battery Management System
-A battery parameter monitoring project focused on understanding battery measurements and the role of monitoring in a BMS.
-
 ## What I'm working on now
 
 - Strengthening embedded C through small, testable firmware modules.
